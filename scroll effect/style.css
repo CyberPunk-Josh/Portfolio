@@ -1,0 +1,14 @@
+.fondo{
+    height: 100vh;
+    background: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navegador{
+    background: rgba(0, 0, 0, 0.199);
+}
+
+.top-nav-collapse{
+    background: rgba(0, 0, 0, 0.74) !important;
+}
