@@ -214,3 +214,18 @@
 .resume .row{
     height: 20rem;
 }
+
+/* get in touch */
+.touch{
+    background-color: rgba(215, 201, 228, 0.63);
+}
+
+.touch i{
+    font-size: 80px;
+}
+
+.touch a{
+    border: solid #000000 ;
+    font-size: 20px;
+}
+/* end of get in touch */
