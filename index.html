@@ -16,9 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
     <title>Joshue | Web Developer</title>
 </head>
-<body>
+<body data-spy="scroll" data-target="#menu">
     <!-- menu de navegacion -->
-    <nav class="navbar navbar-expand-md navbar-dark navegacion w-100 scrolling-navbar fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark navegacion w-100 scrolling-navbar fixed-top" id="menu">
 
         <a class="navbar-brand name" href="#">Joshue</a>
 
@@ -27,21 +27,21 @@
         </button>
 
         <div class="collapse navbar-collapse w-100 " id="navbarText">
-            <ul class="nav nav-justified flex-column flex-sm-row ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link text-uppercase" href="#">About</a>
+            <ul class="nav nav-justified flex-column flex-sm-row ml-auto nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase active" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">passion</a>
+                    <a class="nav-link text-uppercase" href="#passion">passion</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">Experience</a>
+                    <a class="nav-link text-uppercase" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">Work</a>
+                    <a class="nav-link text-uppercase" href="#work">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-uppercase" href="#">Contact</a>
+                    <a class="nav-link text-uppercase" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -55,7 +55,7 @@
         </div>
     </section>
     <!-- a little bit about me -->
-    <main class="container">
+    <main class="container" id="about">
         <h2 class="text-uppercase text-center mt-5">A Little Bit About Me</h2>
         <!-- imagen al centro -->
         <div class="d-flex justify-content-center">
@@ -64,6 +64,7 @@
             </div>
         </div>
         <!-- final de imagen al centro -->
+    <!-- end of a little bit about me -->
         <!-- text about me -->
         <div class="texto">
             <p class="lead text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, culpa ipsam? Aliquam provident est quod praesentium quibusdam expedita perferendis voluptas dolores, neque ut magni illum perspiciatis? Repudiandae odio voluptates velit esse, necessitatibus architecto suscipit a consequatur itaque, eligendi voluptas ratione.</p>
@@ -92,12 +93,12 @@
                     <div class="icono mb-3">
                         <i class="fas fa-gamepad"></i>
                     </div>
-                    <h5>VIDEOGAMES</h5>
+                    <h5>GAMING</h5>
                 </div>
             </div>
         </div>
     </main>
-    <section class="skills container-fluid mt-5 py-5">
+    <section class="skills container-fluid mt-5 py-5" id="passion">
         <h3 class="text-center text-uppercase pb-5">what i do</h3>
         <div class="row passion">
 
@@ -128,7 +129,7 @@
     </section>
     <!-- end of what do i love -->
     <!-- experience -->
-    <section class="container">
+    <section class="container" id="experience">
         <h2 class="text-center text-uppercase mt-5">Experience</h2>
         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores pariatur nostrum maxime fuga ipsam ducimus id temporibus nihil, dolor voluptatibus!</p>
         <div class="row">
@@ -186,7 +187,7 @@
     </section>
     <!-- end of experience -->
     <!-- what ive done -->
-    <section class="container">
+    <section class="container" id="work">
         <h3 class="text-uppercase text-center mt-5">What i've done</h3>
         <p class="text-center mt-3">(more coming soon)</p>
         <div class="row mt-4">
@@ -216,37 +217,54 @@
     </section>
     <!-- end of what ive done -->
     <!-- get in touch -->
-    <section class="touch text-center py-5">
+    <section class="touch text-center py-5" id="contact">
         <h3 class="text-uppercase">Get in Touch!</h3>
         <i class="far fa-envelope my-4"></i>
         <p class="px-5">Wheter you have an idea for a project, want to build someting great,<br> or just want to chat, feel free to send me an email!</p>
         <a href="mailto:cristianjoshue@hotmail.com" target="_blank" class="btn text-capitalize">Say Hello</a>
     </section>
     <!-- end of get in touch -->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <!-- end of a little bit about me -->
-    
-    
+    <!-- footer -->
+    <footer>
+        <div class="row contenido no-gutters d-flex align-content-center justify-content-center">
+            <div class="col-md-6 text-center">
+                <img src="./img/logo-10.png" alt="Joshue - Web Developer" class="img-fluid">
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <div class="wrapper">
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-facebook-square"></i>
+                        </div>
+                        <span>Facebook</span>
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <span>Instagram</span>
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <span>Linkedin</span>
+                    </div>
+                    <div class="button">
+                        <div class="icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <span>Github</span>
+                    </div>
+                    <div class="text-center mb-2 nombre_fondo">
+                        <p> &copy; Joshue Neyra 2020</p>
+                        <i class="fab fa-grav"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
