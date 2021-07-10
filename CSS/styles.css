@@ -201,6 +201,31 @@ body{
     height: auto;
 }
 
+.express{
+    width: 7rem;
+    height: auto;
+}
+
+.mongodb{
+    width: 8rem;
+    height: auto;
+}
+
+.sqlserver{
+    width: 6rem;
+    height: auto;
+}
+
+.php{
+    width: 6rem;
+    height: auto;
+}
+
+.jquery{
+    width: 6rem;
+    height: auto;
+}
+
 /* end of techonologies */
 
 /* Trabajo */
